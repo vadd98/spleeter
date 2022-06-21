@@ -55,3 +55,4 @@ model/
 *.exe
 *.out
 *.app
+/.idea/

@@ -1,7 +1,7 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
-def ffmpeg():
-    commit = "e64e6a5"
+def bazel_deps_repository():
+    commit = "XXX"
     http_archive(
         name = "com_github_mjbots_bazel_deps",
         url = "https://github.com/mjbots/bazel_deps/archive/{}.zip".format(commit),
