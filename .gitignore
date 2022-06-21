@@ -1,7 +1,6 @@
 # Extras
 .DS_Store
 .devcontainer/*
-*.zip
 *.tar.xz
 *.pcm
 *.raw
