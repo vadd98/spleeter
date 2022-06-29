@@ -20,8 +20,8 @@ cc_library(
     deps = [
         "//spleeter/datatypes",
         "//spleeter/logging",
-        "@org_tensorflow//tensorflow:tensorflow.dll", # set dynamic to OS
-        "@org_tensorflow//tensorflow/lite:tensorflowlite.dll", # set dynamic to OS
+        "@org_tensorflow//tensorflow:tensorflow.dll", # TODO set dynamic to OS
+        "@org_tensorflow//tensorflow/lite:tensorflowlite.dll", # TODO set dynamic to OS
     ],
 )
 

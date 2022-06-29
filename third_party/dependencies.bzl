@@ -6,6 +6,7 @@ load("@spleeter//third_party/googletest:googletest.bzl", "googletest")
 load("@spleeter//third_party/models:models.bzl", "models")
 load("@spleeter//third_party/nlohmann:nlohmann.bzl", "nlohmann")
 load("@spleeter//third_party/zlib:zlib.bzl", "zlib")
+load("@spleeter//third_party/ffmpeg:ffmpeg.bzl", "ffmpeg")
 
 def spleeter_dependencies():
     """ Load 3rd Party Dependencies """
@@ -17,3 +18,4 @@ def spleeter_dependencies():
     models()
     nlohmann()
     zlib()
+    ffmpeg()
